@@ -11,6 +11,6 @@ class Worker @Inject()(electionService: ElectionService, configurationService: C
 
   override def receive: Receive = {
     case message =>
-      logger.debug(s"Received unknown message: $message")
+      logger.debug(s"[Worker] Received unknown message: $message")
   }
 }
