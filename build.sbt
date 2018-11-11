@@ -21,8 +21,6 @@ scalaVersion := "2.12.2"
 
 libraryDependencies ++= Seq( jdbc , ehcache , ws , specs2 % Test , guice )
 
-unmanagedResourceDirectories in Test <+=  baseDirectory ( _ /"target/web/public/test" )
-
 // Election library
 val electionLibraryVersion = "0.0.1"
 val electionPath = "../election"
