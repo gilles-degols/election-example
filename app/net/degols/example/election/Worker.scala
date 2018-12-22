@@ -3,7 +3,7 @@ package net.degols.example.election
 import java.io.File
 
 import akka.actor.Actor
-import net.degols.filesgate.libs.election.{ConfigurationService, ElectionService, ElectionWrapper}
+import net.degols.libs.election.{ConfigurationService, ElectionService, ElectionWrapper}
 import org.slf4j.LoggerFactory
 import javax.inject.{Inject, Singleton}
 
