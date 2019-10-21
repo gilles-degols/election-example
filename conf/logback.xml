@@ -32,8 +32,7 @@
 
   <logger name="play" level="INFO" />
   <logger name="application" level="DEBUG" />
-  <logger name="net.degols.filesgate" level="DEBUG" />
-  <logger name="net.degols.example" level="DEBUG" />
+  <logger name="net.degols" level="DEBUG" />
 
   <!-- Off these ones as they are annoying, and anyway we manage configuration ourselves -->
   <logger name="com.avaje.ebean.config.PropertyMapLoader" level="OFF" />
